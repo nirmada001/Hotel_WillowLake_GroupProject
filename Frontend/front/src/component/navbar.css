@@ -1,0 +1,104 @@
+/* navbar.css */
+
+.justify-content-center {
+  display: flex;
+  background-color: rgb(3, 55, 32);
+  padding-left: 250px;
+  
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.logo-icon {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  right: 210px;
+}
+
+.nav-links {
+  display: flex;
+  margin-left: 200px;
+ 
+}
+
+.nav-link {
+  color: rgb(172, 170, 170) !important;
+  font-weight: bold;
+  margin: 0 10px;
+  text-decoration: none;
+  text-align: center;
+  transition: color 0.3s;
+}
+
+
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+/* Override styling for the active Nav link provided by React Bootstrap */
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:focus,
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ffffff !important; 
+  background-color: transparent !important;
+}
+
+
+.nav-item .nav-link.active.event,
+.nav-item .nav-link.active.dining,
+.nav-item .nav-link.active.about-us {
+  color: inherit !important; 
+  background-color: transparent !important;
+}
+
+/* Move Sign In tab to the right corner */
+.navbar-nav .nav-item {
+  margin-left: auto !important ;
+}
+
+.nav-link-signin{
+  padding-left: 420px;
+  text-decoration: none;
+  color: rgb(172, 170, 170) !important;
+  font-weight: 600;
+}
+.nav-link-signin:hover {
+  color: #ffffff !important;
+  transition: color 0.3s;
+}
+
+ .nav-link-sign .active {
+  color: #ffffff !important; 
+  background-color: transparent !important;
+}
+
+
+
+.notification-icon {
+  color: white; 
+  margin-left: 8px; 
+}
+
+.notification-box {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 5px 10px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  margin-bottom: 7px;
+  
+}
+
+.notification-count {
+  background-color: rgb(175, 9, 9); 
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  right: 40px; 
+}
+

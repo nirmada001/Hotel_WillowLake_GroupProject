@@ -1,0 +1,99 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 20px;
+    
+}
+
+form.overlay-form {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.overlay-form img.login-icon {
+    width: 80px;
+    height: auto;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.input::placeholder {
+    color: #ccc;
+}
+
+.signoutbtn {
+    width: 150px;
+    background: rgb(3, 55, 32);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-left: 30%;
+}
+
+.signoutbtn:hover {
+    background: #218838;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.background-images-signup {
+    display: none; /* Hide background image in this approach */
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(187, 186, 186);
+}
+
+.login-link-route {
+    text-decoration: none;
+    color: rgb(187, 186, 186);
+}
+
+.login-link-route:hover {
+    color: aliceblue;
+}

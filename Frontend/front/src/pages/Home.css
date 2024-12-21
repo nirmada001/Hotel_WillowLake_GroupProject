@@ -1,0 +1,401 @@
+/* home.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+body{
+  overflow-x: hidden;
+}
+
+.Container1 {
+  position: relative;
+  margin-top: -50px;
+  height: 80vh;
+  padding-left: -100px;
+}
+
+.homeTitle {
+  text-align: left;
+  color: white;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  font-size: 100px;
+  margin-left: -130px;
+}
+
+.h2-new {
+  text-align: left;
+  margin-left: -50px;
+  margin-left: -125px;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.contentContainer {
+  position: absolute;
+  margin-top: 60px;
+  width: 900px;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin-left: -100px;
+}
+
+.background-image-new {
+  width: 100%;
+  height: 110%;
+  margin-right: -400px;
+  margin-top: 50px;
+  opacity: 0.7;
+}
+
+.centered-content-left{
+  margin-top: 20px;
+  width: 200px;
+  padding-right: 100p;
+
+  
+}
+
+.btn {
+  width: 200px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  opacity: 0.;
+}
+
+
+.Container2 {
+  width: 100%;
+  height: 900px;
+  text-align: center;
+  margin-top: 106px;
+  padding: 20px;
+  color: white;
+  margin-bottom: -50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+}
+
+#events-container .card {
+  height: 500px;
+  width: 75%;
+  display: inline-flex;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.6s ease;
+  border: none; 
+}
+
+.card-body-event {
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body-event h3 {
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  transform: translateY(50%);
+  transition: transform 0.9s ease;
+}
+
+.card:hover .card-body-event h3 {
+  transform: translateY(-50%);
+  top: 100px;
+}
+
+.card-body-event h4 {
+  opacity: 0;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s ease;
+}
+
+.card:hover .card-body-event h4 {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.event-image-one {
+  border-radius: 5px;
+  height: 100%;
+}
+
+
+.h1-event {
+  padding-top: 20px;
+  font-size: 70px;
+  text-align: center;
+  color: rgb(116, 112, 11);
+  font-family: 'Tangerine', cursive;
+}
+
+.Container3 {
+  width: 100%;
+  text-align: center;
+  height: 900px;
+  background-color: rgb(191, 195, 199);
+  margin-top: 50px;
+  
+  
+  padding: 20px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  padding-left: 43px;
+}
+
+.h1-dining {
+  padding-top: 20px;
+  font-size: 100px;
+  padding-top: 100px;
+  text-align: center;
+  color: rgb(127, 107, 17);
+  font-family: 'Tangerine', cursive;
+}
+
+#dining-container .dining-card {
+  margin-top: 50px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+
+}
+
+#dining-container .dining-card:hover {
+  background-color: rgba(2, 31, 43, 0.7);
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .card {
+    height: auto;
+  }
+}
+
+.card-img-top-dinning02{
+  width: 100%;
+  height: 56%;
+}
+
+
+
+.event-card-adj{
+  margin-left: 7px;
+}
+.btn-secondary-booknow{
+  color: white;
+  background-color: rgb(20, 74, 25);
+  width: 200px;
+  margin: 3px;
+  padding: 5px;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+}
+  
+.btn-secondary-booknow:hover{
+  border: none;
+  color: rgb(20, 74, 25);
+  background-color: white;
+  width: 200px;
+  margin: 3px;
+  padding: 5px;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+}
+
+
+@media (max-width: 767px) {
+  .background-image-new {
+    width: 150%;
+    height: 90%;
+    margin-right: -400px;
+  }
+  .homeTitle {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-left: 200px;
+    width: 300px;
+  }
+
+  .h2-new {
+    
+    text-align: center;
+    margin-left: 200px;
+    line-height: 30px;
+    padding: 20px;
+    font-size: 15px;
+    width: 300px;
+    margin-bottom: 150px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .background-video {
+    width: 100%;
+    height: 100%;
+    margin-top: 36.5px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+  }
+
+  .Container2 {
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    padding: 20px;
+    bottom: 200px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+
+  }
+
+  .card-body-event {
+    height: 50%;
+    position: relative;
+    display: flex;
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-body-event h3 {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    transform: translateY(50%);
+    transition: transform 0.9s ease;
+  }
+  
+  .card-body-event h4 {
+    opacity: 0;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease;
+  }
+
+  .h1-dining {
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 20px;
+    color: rgb(127, 107, 17);
+    font-family: 'Tangerine', cursive;
+  }
+  .Container3 {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(191, 195, 199);
+    margin-bottom: 60px;
+    margin-top: -200px;
+
+    
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+  .din{
+    margin-right: 25px;
+  }
+}
+
+/* Chatbot Icon and Container */
+.chatbot-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  animation: bounce 2s infinite;
+  transition: transform 0.3s;
+}
+
+.chatbot-icon:hover {
+  transform: scale(1.1);
+}
+
+.chatbot-container {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 270px;
+  max-width: 100%;
+  z-index: 1000;
+  animation: slideIn 0.3s ease-out;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animations */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
